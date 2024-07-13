@@ -4,10 +4,6 @@
 
 name: cxx plugin CI
 
-on:
-  push:
-    branches: [ master ]
-
 defaults:
   run:
     # use bash only, makes it easier to write steps for Windows & Linux
